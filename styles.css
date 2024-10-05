@@ -1,0 +1,101 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  font-family: "Urbanist", sans-serif;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1b1b20;
+}
+
+.activity-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 720px;
+}
+
+.hero {
+  width: 100%;
+  height: 343px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/saopaulo.png);
+  background-size: cover;
+  margin-bottom: 39px;
+}
+
+h1,
+h2 {
+  background-color: #c50002;
+  padding: 6px 16px;
+}
+
+h2 {
+  background-color: #c50002;
+  font-size: 18px;
+  width: 412px;
+}
+
+.activities {
+  background-color: ;
+  color: #244093;
+  margin: 38px;
+}
+
+.activities-heading {
+  margin-bottom: 54px;
+}
+
+.activities-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity {
+  width: 198px;
+}
+
+.activity-tag {
+  font-weight: 700;
+}
+
+.guide {
+  height: 394px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1b20;
+}
+
+.guide-card {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  background-color: #c50002;
+  align-items: center;
+  padding: 20px;
+  border-radius: 6px;
+  border-bottom: 4px solid black;
+}
+
+.guide-img {
+  width: 120px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
